@@ -1,5 +1,9 @@
 ### Open Redirect Payload List
 
+<p align="center">
+  <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/payloadbox/open-redirect-payload-list?style=social"> <img src="https://img.shields.io/github/forks/payloadbox/open-redirect-payload-list?style=social"> <img src="https://img.shields.io/github/repo-size/payloadbox/open-redirect-payload-list"> <img src="https://img.shields.io/github/license/payloadbox/open-redirect-payload-list"> <img src="https://img.shields.io/github/issues/detail/author/payloadbox/open-redirect-payload-list/1">
+</p>
+
 Unvalidated redirects and forwards are possible when a web application accepts untrusted input that could cause the web application to redirect the request to a URL contained within untrusted input. By modifying untrusted URL input to a malicious site, an attacker may successfully launch a phishing scam and steal user credentials.
 
 Because the server name in the modified link is identical to the original site, phishing attempts may have a more trustworthy appearance. Unvalidated redirect and forward attacks can also be used to maliciously craft a URL that would pass the application’s access control check and then forward the attacker to privileged functions that they would normally not be able to access.
